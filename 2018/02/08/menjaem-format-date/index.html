@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Minos - Dvesti</title>
+  <title>Меняем формат даты - Dvesti</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Поставил тему Минос - Minos">
-<meta name="keywords" content="Minos,Hexo">
+  <meta name="description" content="Заменил в файле Git\Blog\themes\minos\layout_partial\archive-post.ejs Это: &amp;lt;%- partial(&amp;apos;post/date&amp;apos;, {class_name: &amp;apos;archive-article-date&amp;apos;, date_format: &amp;apos;MMM D&amp;apos;}) %&amp;gt; Н">
+<meta name="keywords" content="Themes,Fix">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Minos">
-<meta property="og:url" content="http://dvesti.github.io/2018/02/08/Minos/index.html">
+<meta property="og:title" content="Меняем формат даты">
+<meta property="og:url" content="http://dvesti.github.io/2018/02/08/menjaem-format-date/index.html">
 <meta property="og:site_name" content="Dvesti">
-<meta property="og:description" content="Поставил тему Минос - Minos">
+<meta property="og:description" content="Заменил в файле Git\Blog\themes\minos\layout_partial\archive-post.ejs Это: &amp;lt;%- partial(&amp;apos;post/date&amp;apos;, {class_name: &amp;apos;archive-article-date&amp;apos;, date_format: &amp;apos;MMM D&amp;apos;}) %&amp;gt; Н">
 <meta property="og:locale" content="ru">
-<meta property="og:updated_time" content="2018-02-08T18:47:25.817Z">
+<meta property="og:updated_time" content="2018-02-08T20:13:05.634Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Minos">
-<meta name="twitter:description" content="Поставил тему Минос - Minos">
+<meta name="twitter:title" content="Меняем формат даты">
+<meta name="twitter:description" content="Заменил в файле Git\Blog\themes\minos\layout_partial\archive-post.ejs Это: &amp;lt;%- partial(&amp;apos;post/date&amp;apos;, {class_name: &amp;apos;archive-article-date&amp;apos;, date_format: &amp;apos;MMM D&amp;apos;}) %&amp;gt; Н">
   
   
     <link rel="icon" href="/favicon.png">
@@ -58,7 +58,7 @@
     </div>
   </div>
 </header>
-    <section id="main" class="outer"><article id="post-Minos" class="article article-type-post" itemscope itemprop="blogPost">
+    <section id="main" class="outer"><article id="post-menjaem-format-date" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
     
@@ -66,34 +66,40 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Minos
+      Меняем формат даты
     </h1>
   
 
       </header>
     
     <div class="article-meta">
-      <a href="/2018/02/08/Minos/" class="article-date">
-  <time datetime="2018-02-08T18:14:38.000Z" itemprop="datePublished">08-02-2018</time>
+      <a href="/2018/02/08/menjaem-format-date/" class="article-date">
+  <time datetime="2018-02-08T19:56:22.000Z" itemprop="datePublished">08-02-2018</time>
 </a>
       
   <div class="article-category">
-    <a class="article-category-link" href="/categories/News/">News</a>
+    <a class="article-category-link" href="/categories/Hexo/">Hexo</a>
   </div>
 
       
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Поставил тему <em>Минос</em> - <strong>Minos</strong></p>
-
+        <p>Заменил в файле <strong>Git\Blog\themes\minos\layout_partial\archive-post.ejs</strong></p>
+<p>Это:</p>
+<pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;archive-article-date&apos;, date_format: &apos;MMM D&apos;}) %&gt;
+</code></pre><p>На это:</p>
+<pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;archive-article-date&apos;, date_format: &apos;DD MMMM&apos;}) %
+</code></pre><p>Далее делаем по аналогии, заглядывая в <strong><a href="http://momentjs.com/docs/#/displaying/format/" target="_blank" rel="noopener">мануал по формате даты</a></strong><br><a id="more"></a><br>Например, формат архивной даты статьи (править там же)</p>
+<pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;archive-article-date&apos;, date_format: &apos;DD MMMM YYYY года&apos;}) %&gt;
+</code></pre>
       
     </div>
     
     
       <footer class="article-footer">
         
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Minos/">Minos</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Fix/">Fix</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Themes/">Themes</a></li></ul>
 
       </footer>
     
@@ -102,17 +108,9 @@
     
 <nav id="article-nav">
   
-    <a href="/2018/02/08/menjaem-format-date/" id="article-nav-newer" class="article-nav-link-wrap">
-      <div class="article-nav-title"><span>&lt;</span>&nbsp;
-        
-          Меняем формат даты
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/02/08/icarus/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">icarus&nbsp;<span>&gt;</span></div>
+    <a href="/2018/02/08/Minos/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Minos&nbsp;<span>&gt;</span></div>
     </a>
   
 </nav>
