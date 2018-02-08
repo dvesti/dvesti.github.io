@@ -1,222 +1,440 @@
-
-
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7" lang="ru"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8" lang="ru"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="ru"><!--<![endif]-->
+<html lang=ru>
 <head>
-    <meta charset="UTF-8">
-    <title>Моё первое Сообщение! - my-first-post</title>
-
-    <meta name="author" content="Dvesti">
-
-    <link rel="shortcut icon" href="/images/favicon.png">
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
-
-    <link rel="canonical" href="http://dvesti.github.io/2018/02/04/my-first-post/">
-
+    <meta charset="utf-8">
     
-        <link rel="alternate" href="/atom.xml" type="application/atom+xml">
-    
-
-    
-
-    <script src="/js/modernizr-2.0.js"></script>
-
-    <script src="/js/jquery-1.9.1.js"></script>
-
-    
-    <script>window.twttr = (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0],
-                t = window.twttr || {};
-            if (d.getElementById(id)) return t;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "https://platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
-
-            t._e = [];
-            t.ready = function(f) {
-                t._e.push(f);
-            };
-
-            return t;
-        }(document, "script", "twitter-wjs"));</script>
-
-    
-    <link rel="me" href="https://twitter.com/Prorab">
+    <title>Моё первое Сообщение! - my-first-post | Dvesti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Это - первое сообщение на виртуальном Блоге HЕХОПеред созданием новой записи необходимо закрыть Консоль-Сервер.">
+<meta name="keywords" content="Blog">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Моё первое Сообщение! - my-first-post">
+<meta property="og:url" content="http://dvesti.github.io/2018/02/04/my-first-post/index.html">
+<meta property="og:site_name" content="Dvesti">
+<meta property="og:description" content="Это - первое сообщение на виртуальном Блоге HЕХОПеред созданием новой записи необходимо закрыть Консоль-Сервер.">
+<meta property="og:locale" content="ru">
+<meta property="og:updated_time" content="2018-02-06T20:33:10.005Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Моё первое Сообщение! - my-first-post">
+<meta name="twitter:description" content="Это - первое сообщение на виртуальном Блоге HЕХОПеред созданием новой записи необходимо закрыть Консоль-Сервер.">
     
 
-
-
-    <script src="/js/octo.js"></script>
-
-    <link rel="stylesheet" href="/css/octo.css">
-
-    <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet"
-          type="text/css">
-
-    <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet"
-          type="text/css">
+    
+        <link rel="alternate" href="/" title="Dvesti" type="application/atom+xml" />
+    
 
     
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+
 
 </head>
+
 <body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">Dvesti</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+            <div id="search-form-wrap">
 
-<header role="banner">
-    <hgroup>
-        <h1><a href="/">Dvesti</a></h1>
-        
-            <h2>Блог на Hexo</h2>
-        
-    </hgroup>
-</header>
-
-<nav role="navigation">
-    
-        <ul class="subscription" data-subscription="rss">
-            <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-        </ul>
-    
-
-    <form action="http://google.com/search" method="get">
-        <fieldset role="search">
-            <input type="hidden" name="q" value="site:/">
-            <input class="search" type="text" name="q" results="0" placeholder="Search">
-        </fieldset>
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Поиск" />
+        <button type="submit" class="search-form-submit"></button>
     </form>
-
-    <ul class="main-navigation">
-        
-            <li><a href="/">Главная</a></li>
-        
-            <li><a href="/archives">Архив</a></li>
-        
-            <li><a href="/about">О нас</a></li>
-        
-    </ul>
-</nav>
-
-<div id="main">
-    <div id="content">
-        <div>
-    <article class="hentry" role="article">
-        <header>
-            <h1 class="entry-title">Моё первое Сообщение! - my-first-post</h1>
-            <p class="meta">
-                <time datetime="2018-02-04T14:15:28.000Z" data-updated="true">Sun Feb 04 2018</time>
-            </p>
-        </header>
-        <div class="entry-content">
-            <p><strong>Это</strong> - первое сообщение <a href="https://dvesti.github.io/">на виртуальном Блоге</a> HЕХО<br>Перед созданием новой записи необходимо закрыть Консоль-Сервер.<br><a id="more"></a> Где-то у меня валяется программа для редактирования Макдауна - сейчас правлю в<br><del>Texts</del> <strong>MarkDownPad</strong></p>
-
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Введите что-нибудь..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
-        <footer>
-            <p class="meta">
-                <span class="byline author vcard">Posted by <span class="fn">Dvesti</span></span>
-                <time datetime="2018-02-04T14:15:28.000Z" data-updated="true">Sun Feb 04 2018</time>
-                
-    <span class="categories">
-    
-        <a class="category" href="/tags/Blog/">Blog</a>
-    
-    </span>
-
-            </p>
-            <div class="sharing">
-    
-        <a class="twitter-share-button"
-           href="https://twitter.com/intent/tweet?text=%D0%9C%D0%BE%D1%91%20%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B5%20%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5!%20-%20my-first-post">
-            Tweet
-        </a>
-    
-</div>
-
-            <p class="meta">
-                
-                <a class="basic-alignment left" href="/2018/02/06/hello-world/index.html" title="Previous Post: Hello World">« Hello World</a>
-                
-
-                
-            </p>
-        </footer>
-    </article>
-
-    
-
-</div>
-
-<aside class="sidebar">
-    <section class="odd">
-    <h1>Recent Posts</h1>
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/02/07/hexo-theme-octo/">О теме hexo-theme-octo</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/06/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/04/my-first-post/">Моё первое Сообщение! - my-first-post</a></li></ul>
-</section><section class="even">
-    <h1>GitHub Repos</h1>
-    <ul id="gh_repos">
-        <li class="loading">Status updating&#8230;</li>
-    </ul>
-
-    <a href="https://github.com/your_github">@your_github</a> on GitHub
-
-    <script>
-        $(document).ready(function(){
-            const options = {
-                user: 'your_github',
-                count: 0,
-                skip_forks: true,
-                target: '#gh_repos'
-            }
-
-            function escapeHtml(str) {
-                return $('<div/>').text(str).html();
-            }
-
-            function render(target, repos){
-                let i, fragment = '', t = $(target)[0];
-
-                for(i = 0; i < repos.length; i++) {
-                    fragment += '<li><a href="'+repos[i].html_url+'">'+repos[i].name+'</a><p>'+escapeHtml(repos[i].description||'')+'</p></li>';
-                }
-                t.innerHTML = fragment;
-            }
-
-            $.ajax({
-                url: "https://api.github.com/users/"+options.user+"/repos?sort=pushed&callback=?",
-                dataType: 'jsonp',
-                error: function (err) {
-                    $(options.target + ' li.loading').addClass('error').text("Error loading feed");
-                },
-                success: function(data) {
-                    var repos = [];
-                    if (!data || !data.data) { return; }
-                    for (var i = 0; i < data.data.length; i++) {
-                        if (options.skip_forks && data.data[i].fork) { continue; }
-                        repos.push(data.data[i]);
-                    }
-                    if (options.count) { repos.splice(options.count); }
-                    render(options.target, repos);
-                }
-            });
-        });
-    </script>
-</section>
-</aside>
-
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
     </div>
 </div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'посты',
+            PAGES: 'страницы',
+            CATEGORIES: 'категории',
+            TAGS: 'теги',
+            UNTITLED: '(Без названия)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
 
-<footer role="contentinfo">
-    <p>
-        Copyright © 2018 - Dvesti -
-        <span class="credit">Generated using <a href="https://github.com/jbreckmckye/hexo-theme-octo">Octo theme</a> for <a href="http://hexo.io">Hexo</a></span>
-    </p>
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Поиск" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+            <section id="main"><article id="post-my-first-post" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Моё первое Сообщение! - my-first-post
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2018/02/04/my-first-post/">
+            <time datetime="2018-02-04T14:15:28.000Z" itemprop="datePublished">04-02-2018</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Blog/">Blog</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p><strong>Это</strong> - первое сообщение <a href="https://dvesti.github.io/">на виртуальном Блоге</a> HЕХО<br>Перед созданием новой записи необходимо закрыть Консоль-Сервер.<br><a id="more"></a> Где-то у меня валяется программа для редактирования Макдауна - сейчас правлю в<br><del>Texts</del> <strong>MarkDownPad</strong></p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://dvesti.github.io/2018/02/04/my-first-post/" data-id="cjdefq47h00006ousiz79nmle" class="article-share-link"><i class="fa fa-share"></i>Поделиться</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2018/02/06/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Новые</strong>
+            <div class="article-nav-title">
+                
+                    Hello World
+                
+            </div>
+        </a>
+    
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    
+
+</section>
+            
+                
+<aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">недавние</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/07/hexo-theme-octo/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/07/hexo-theme-octo/" class="title">О теме hexo-theme-octo</a></p>
+                            <p class="item-date"><time datetime="2018-02-06T22:25:28.000Z" itemprop="datePublished">07-02-2018</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/06/hello-world/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/06/hello-world/" class="title">Hello World</a></p>
+                            <p class="item-date"><time datetime="2018-02-06T15:36:20.439Z" itemprop="datePublished">06-02-2018</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/04/my-first-post/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/04/my-first-post/" class="title">Моё первое Сообщение! - my-first-post</a></p>
+                            <p class="item-date"><time datetime="2018-02-04T14:15:28.000Z" itemprop="datePublished">04-02-2018</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">архивы</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">февраль 2018</a><span class="archive-list-count">3</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">теги</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Blog/">Blog</a><span class="tag-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">облако тегов</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/Blog/" style="font-size: 10px;">Blog</a>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">ссылки</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2018 Dvesti<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
+    </div>
 </footer>
+        
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
 
 
 
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
 </body>
 </html>
