@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Dvesti</title>
+  
+  <subtitle>Блог на Hexo</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://dvesti.github.io/"/>
+  <updated>2018-02-09T11:53:08.182Z</updated>
+  <id>http://dvesti.github.io/</id>
+  
+  <author>
+    <name>Dvesti</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Проверочный</title>
+    <link href="http://dvesti.github.io/2018/02/09/a/"/>
+    <id>http://dvesti.github.io/2018/02/09/a/</id>
+    <published>2018-02-09T11:39:47.000Z</published>
+    <updated>2018-02-09T11:53:08.182Z</updated>
+    
+    <content type="html"><![CDATA[<p>Программа А</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Программа А&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="Test" scheme="http://dvesti.github.io/tags/Test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Меняем формат даты</title>
+    <link href="http://dvesti.github.io/2018/02/08/menjaem-format-date/"/>
+    <id>http://dvesti.github.io/2018/02/08/menjaem-format-date/</id>
+    <published>2018-02-08T19:56:22.000Z</published>
+    <updated>2018-02-08T20:13:05.634Z</updated>
+    
+    <content type="html"><![CDATA[<p>Заменил в файле <strong>Git\Blog\themes\minos\layout_partial\archive-post.ejs</strong></p><p>Это:</p><pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;archive-article-date&apos;, date_format: &apos;MMM D&apos;}) %&gt;</code></pre><p>На это:</p><pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;archive-article-date&apos;, date_format: &apos;DD MMMM&apos;}) %</code></pre><p>Далее делаем по аналогии, заглядывая в <strong><a href="http://momentjs.com/docs/#/displaying/format/" target="_blank" rel="noopener">мануал по формате даты</a></strong><br><a id="more"></a><br>Например, формат архивной даты статьи (править там же)</p><pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;archive-article-date&apos;, date_format: &apos;DD MMMM YYYY года&apos;}) %&gt;</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Заменил в файле &lt;strong&gt;Git\Blog\themes\minos\layout_partial\archive-post.ejs&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Это:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;%- partial(&amp;apos;post/date&amp;apos;, {class_name: &amp;apos;archive-article-date&amp;apos;, date_format: &amp;apos;MMM D&amp;apos;}) %&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;На это:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;%- partial(&amp;apos;post/date&amp;apos;, {class_name: &amp;apos;archive-article-date&amp;apos;, date_format: &amp;apos;DD MMMM&amp;apos;}) %
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Далее делаем по аналогии, заглядывая в &lt;strong&gt;&lt;a href=&quot;http://momentjs.com/docs/#/displaying/format/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;мануал по формате даты&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://dvesti.github.io/categories/Hexo/"/>
+    
+    
+      <category term="Themes" scheme="http://dvesti.github.io/tags/Themes/"/>
+    
+      <category term="Fix" scheme="http://dvesti.github.io/tags/Fix/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Minos</title>
+    <link href="http://dvesti.github.io/2018/02/08/Minos/"/>
+    <id>http://dvesti.github.io/2018/02/08/Minos/</id>
+    <published>2018-02-08T18:14:38.000Z</published>
+    <updated>2018-02-08T18:47:25.817Z</updated>
+    
+    <content type="html"><![CDATA[<p>Поставил тему <em>Минос</em> - <strong>Minos</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Поставил тему &lt;em&gt;Минос&lt;/em&gt; - &lt;strong&gt;Minos&lt;/strong&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="News" scheme="http://dvesti.github.io/categories/News/"/>
+    
+    
+      <category term="Minos" scheme="http://dvesti.github.io/tags/Minos/"/>
+    
+      <category term="Hexo" scheme="http://dvesti.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>icarus</title>
+    <link href="http://dvesti.github.io/2018/02/08/icarus/"/>
+    <id>http://dvesti.github.io/2018/02/08/icarus/</id>
+    <published>2018-02-08T15:57:54.000Z</published>
+    <updated>2018-02-08T15:58:46.923Z</updated>
+    
+    <content type="html"><![CDATA[<p>Это тестовая запись в теме <strong>Икарус</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Это тестовая запись в теме &lt;strong&gt;Икарус&lt;/strong&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="http://dvesti.github.io/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>О теме hexo-theme-octo</title>
+    <link href="http://dvesti.github.io/2018/02/07/hexo-theme-octo/"/>
+    <id>http://dvesti.github.io/2018/02/07/hexo-theme-octo/</id>
+    <published>2018-02-06T22:25:28.000Z</published>
+    <updated>2018-02-08T18:35:33.874Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Heading"><a href="#Heading" class="headerlink" title="Heading"></a>Heading</h1><h2 id="Subheading"><a href="#Subheading" class="headerlink" title="Subheading"></a>Subheading</h2><h3 id="Subsubheading"><a href="#Subsubheading" class="headerlink" title="Subsubheading"></a>Subsubheading</h3><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>!</p><a id="more"></a>## Pullquotes<br><br>My super pullquote. Pullquotes are right-aligned by default:<br><br><blockquote class="pullquote left"><p>Left-hand pullquote</p></blockquote><p>This right pullquote turns all the heads.</p><blockquote class="pullquote right"><p>Right-hand pullquote</p></blockquote><h2 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h2><img src="/path/to/image" class="class_names" title="the_width the_height [the_title [alt text]]"><h2 id="JSFiddle-embeds"><a href="#JSFiddle-embeds" class="headerlink" title="JSFiddle embeds"></a>JSFiddle embeds</h2><iframe scrolling="no" width="100%" height="300" src="//jsfiddle.net/my_fiddle_id/embedded/html,css,result/dark" frameborder="0" allowfullscreen></iframe><p>The syntax is: jsfiddle ID, tab list, and theme (‘dark’ or ‘light’).</p><h2 id="Iframes"><a href="#Iframes" class="headerlink" title="Iframes"></a>Iframes</h2><iframe src="http://my.smashing.url" width="100%" height="300" frameborder="0" allowfullscreen></iframe><h2 id="Codeblocks"><a href="#Codeblocks" class="headerlink" title="Codeblocks"></a>Codeblocks</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">beep.beep(thisIsMyCode).beep();</span><br></pre></td></tr></table></figure><h2 id="Github-Gists"><a href="#Github-Gists" class="headerlink" title="Github Gists"></a>Github Gists</h2><script src="//gist.github.com/gist_id.js?file=filename"></script><h2 id="YouTube-embeds"><a href="#YouTube-embeds" class="headerlink" title="YouTube embeds"></a>YouTube embeds</h2><div class="video-container"><iframe src="//www.youtube.com/embed/video_id" frameborder="0" allowfullscreen></iframe></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Heading&quot;&gt;&lt;a href=&quot;#Heading&quot; class=&quot;headerlink&quot; title=&quot;Heading&quot;&gt;&lt;/a&gt;Heading&lt;/h1&gt;&lt;h2 id=&quot;Subheading&quot;&gt;&lt;a href=&quot;#Subheading&quot; class=&quot;headerlink&quot; title=&quot;Subheading&quot;&gt;&lt;/a&gt;Subheading&lt;/h2&gt;&lt;h3 id=&quot;Subsubheading&quot;&gt;&lt;a href=&quot;#Subsubheading&quot; class=&quot;headerlink&quot; title=&quot;Subsubheading&quot;&gt;&lt;/a&gt;Subsubheading&lt;/h3&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;!&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="News" scheme="http://dvesti.github.io/categories/News/"/>
+    
+    
+      <category term="Blog" scheme="http://dvesti.github.io/tags/Blog/"/>
+    
+      <category term="Test" scheme="http://dvesti.github.io/tags/Test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://dvesti.github.io/2018/02/06/hello-world/"/>
+    <id>http://dvesti.github.io/2018/02/06/hello-world/</id>
+    <published>2018-02-06T15:36:20.439Z</published>
+    <updated>2018-02-06T23:02:53.629Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><a id="more"></a><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Моё первое Сообщение! - my-first-post</title>
+    <link href="http://dvesti.github.io/2018/02/04/my-first-post/"/>
+    <id>http://dvesti.github.io/2018/02/04/my-first-post/</id>
+    <published>2018-02-04T14:15:28.000Z</published>
+    <updated>2018-02-06T20:33:10.005Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Это</strong> - первое сообщение <a href="https://dvesti.github.io/">на виртуальном Блоге</a> HЕХО<br>Перед созданием новой записи необходимо закрыть Консоль-Сервер.<br><a id="more"></a> Где-то у меня валяется программа для редактирования Макдауна - сейчас правлю в<br><del>Texts</del> <strong>MarkDownPad</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;Это&lt;/strong&gt; - первое сообщение &lt;a href=&quot;https://dvesti.github.io/&quot;&gt;на виртуальном Блоге&lt;/a&gt; HЕХО&lt;br&gt;Перед созданием новой записи необходимо закрыть Консоль-Сервер.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="http://dvesti.github.io/tags/Blog/"/>
+    
+  </entry>
+  
+</feed>
