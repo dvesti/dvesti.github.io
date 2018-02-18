@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dvesti.github.io/"/>
-  <updated>2018-02-09T11:53:08.182Z</updated>
+  <updated>2018-02-14T22:26:43.231Z</updated>
   <id>http://dvesti.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://dvesti.github.io/2018/02/09/a/"/>
     <id>http://dvesti.github.io/2018/02/09/a/</id>
     <published>2018-02-09T11:39:47.000Z</published>
-    <updated>2018-02-09T11:53:08.182Z</updated>
+    <updated>2018-02-14T22:26:43.231Z</updated>
     
     <content type="html"><![CDATA[<p>Программа А</p>]]></content>
     
@@ -122,11 +122,11 @@
   </entry>
   
   <entry>
-    <title>О теме hexo-theme-octo</title>
+    <title>новая тема hexo-theme-octo</title>
     <link href="http://dvesti.github.io/2018/02/07/hexo-theme-octo/"/>
     <id>http://dvesti.github.io/2018/02/07/hexo-theme-octo/</id>
     <published>2018-02-06T22:25:28.000Z</published>
-    <updated>2018-02-08T18:35:33.874Z</updated>
+    <updated>2018-02-14T22:28:08.757Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Heading"><a href="#Heading" class="headerlink" title="Heading"></a>Heading</h1><h2 id="Subheading"><a href="#Subheading" class="headerlink" title="Subheading"></a>Subheading</h2><h3 id="Subsubheading"><a href="#Subsubheading" class="headerlink" title="Subsubheading"></a>Subsubheading</h3><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>!</p><a id="more"></a>## Pullquotes<br><br>My super pullquote. Pullquotes are right-aligned by default:<br><br><blockquote class="pullquote left"><p>Left-hand pullquote</p></blockquote><p>This right pullquote turns all the heads.</p><blockquote class="pullquote right"><p>Right-hand pullquote</p></blockquote><h2 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h2><img src="/path/to/image" class="class_names" title="the_width the_height [the_title [alt text]]"><h2 id="JSFiddle-embeds"><a href="#JSFiddle-embeds" class="headerlink" title="JSFiddle embeds"></a>JSFiddle embeds</h2><iframe scrolling="no" width="100%" height="300" src="//jsfiddle.net/my_fiddle_id/embedded/html,css,result/dark" frameborder="0" allowfullscreen></iframe><p>The syntax is: jsfiddle ID, tab list, and theme (‘dark’ or ‘light’).</p><h2 id="Iframes"><a href="#Iframes" class="headerlink" title="Iframes"></a>Iframes</h2><iframe src="http://my.smashing.url" width="100%" height="300" frameborder="0" allowfullscreen></iframe><h2 id="Codeblocks"><a href="#Codeblocks" class="headerlink" title="Codeblocks"></a>Codeblocks</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">beep.beep(thisIsMyCode).beep();</span><br></pre></td></tr></table></figure><h2 id="Github-Gists"><a href="#Github-Gists" class="headerlink" title="Github Gists"></a>Github Gists</h2><script src="//gist.github.com/gist_id.js?file=filename"></script><h2 id="YouTube-embeds"><a href="#YouTube-embeds" class="headerlink" title="YouTube embeds"></a>YouTube embeds</h2><div class="video-container"><iframe src="//www.youtube.com/embed/video_id" frameborder="0" allowfullscreen></iframe></div>]]></content>
     
@@ -150,7 +150,7 @@
     <link href="http://dvesti.github.io/2018/02/06/hello-world/"/>
     <id>http://dvesti.github.io/2018/02/06/hello-world/</id>
     <published>2018-02-06T15:36:20.439Z</published>
-    <updated>2018-02-06T23:02:53.629Z</updated>
+    <updated>2018-02-14T22:26:52.044Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><a id="more"></a><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
