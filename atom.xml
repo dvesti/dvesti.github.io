@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Dvesti</title>
+  
+  <subtitle>Блог на Hexo</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://dvesti.github.io/"/>
+  <updated>2020-05-18T14:59:00.548Z</updated>
+  <id>http://dvesti.github.io/</id>
+  
+  <author>
+    <name>Dvesti</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Меняем стиль сайта!</title>
+    <link href="http://dvesti.github.io/2018/02/26/Menjaju-style/"/>
+    <id>http://dvesti.github.io/2018/02/26/Menjaju-style/</id>
+    <published>2018-02-26T17:23:08.000Z</published>
+    <updated>2020-05-18T14:59:00.548Z</updated>
+    
+    <content type="html"><![CDATA[<p>&#x418;&#x437;&#x43C;&#x435;&#x43D;&#x438;&#x43B; &#x43D;&#x435;&#x43C;&#x43D;&#x43E;&#x436;&#x43A;&#x43E; &#x441;&#x442;&#x438;&#x43B;&#x44C; &#x43E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x43A; &#x441;&#x430;&#x439;&#x442;&#x430;.<br>&#x41F;&#x440;&#x430;&#x432;&#x438;&#x43B; &#x432; &#x43F;&#x430;&#x43F;&#x43A;&#x435; &#x442;&#x435;&#x43C;&#x44B; <code>\themes\minos\source\css</code><br>&#x412; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x43E;&#x43C; &#x444;&#x430;&#x439;&#x43B; - <code>_variables.styl</code>, &#x43D;&#x43E; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43F;&#x43E;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x442;&#x44C; &#x438; &#x434;&#x440;&#x443;&#x433;&#x438;&#x435;&#x2026;<br>&#x422;&#x435;&#x43F;&#x435;&#x440;&#x44C; &#x437;&#x43D;&#x430;&#x44E;, &#x433;&#x434;&#x435; &#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C;<br><a id="more"></a><br>&#x427;&#x442;&#x43E; &#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B; - &#x43D;&#x435; &#x441;&#x435;&#x43A;&#x440;&#x435;&#x442;: &#x43B;&#x44E;&#x431;&#x43B;&#x44E; &#x431;&#x443;&#x43A;&#x432;&#x44B; &#x43F;&#x43E;-&#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435;. &#x418; &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43D;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x432;&#x430;&#x442;&#x44C; &#x442;&#x435;&#x43A;&#x441;&#x442; &#x432; &#x431;&#x440;&#x430;&#x443;&#x437;&#x435;&#x440;&#x435;.<br>&#x41F;&#x43E;&#x43C;&#x435;&#x43D;&#x44F;&#x43B; &#x44D;&#x442;&#x43E;<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Fonts</span></span><br><span class="line">.........</span><br><span class="line"></span><br><span class="line">font-size = 18px</span><br></pre></td></tr></table></figure></p><p>&#x43D;&#x430; &#x44D;&#x442;&#x43E;:<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Fonts</span></span><br><span class="line">.........</span><br><span class="line"></span><br><span class="line">font-size = 20px</span><br></pre></td></tr></table></figure></p><p>&#x438; &#x432;&#x435;&#x440;&#x445;&#x43D;&#x435;&#x435; &#x43C;&#x435;&#x43D;&#x44E; &#x432; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x430;&#x445; &#x448;&#x430;&#x43F;&#x43A;&#x438; (<code>_partial/header.styl</code>)</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;#x418;&amp;#x437;&amp;#x43C;&amp;#x435;&amp;#x43D;&amp;#x438;&amp;#x43B; &amp;#x43D;&amp;#x435;&amp;#x43C;&amp;#x43D;&amp;#x43E;&amp;#x436;&amp;#x43A;&amp;#x43E; &amp;#x441;&amp;#x442;&amp;#x438;&amp;#x43B;&amp;#x44C; &amp;#x43E;&amp;#x442;&amp;#x43E;&amp;#x431;&amp;#x440;&amp;#x430;&amp;#x436;&amp;#x435;&amp;#x43D;&amp;#x438;&amp;#x44F; &amp;#x441;&amp;#x442;&amp;#x440;&amp;#x430;&amp;#x43D;&amp;#x438;&amp;#x447;&amp;#x435;&amp;#x43A; &amp;#x441;&amp;#x430;&amp;#x439;&amp;#x442;&amp;#x430;.&lt;br&gt;&amp;#x41F;&amp;#x440;&amp;#x430;&amp;#x432;&amp;#x438;&amp;#x43B; &amp;#x432; &amp;#x43F;&amp;#x430;&amp;#x43F;&amp;#x43A;&amp;#x435; &amp;#x442;&amp;#x435;&amp;#x43C;&amp;#x44B; &lt;code&gt;\themes\minos\source\css&lt;/code&gt;&lt;br&gt;&amp;#x412; &amp;#x43E;&amp;#x441;&amp;#x43D;&amp;#x43E;&amp;#x432;&amp;#x43D;&amp;#x43E;&amp;#x43C; &amp;#x444;&amp;#x430;&amp;#x439;&amp;#x43B; - &lt;code&gt;_variables.styl&lt;/code&gt;, &amp;#x43D;&amp;#x43E; &amp;#x43C;&amp;#x43E;&amp;#x436;&amp;#x43D;&amp;#x43E; &amp;#x43F;&amp;#x43E;&amp;#x441;&amp;#x43C;&amp;#x43E;&amp;#x442;&amp;#x440;&amp;#x435;&amp;#x442;&amp;#x44C; &amp;#x438; &amp;#x434;&amp;#x440;&amp;#x443;&amp;#x433;&amp;#x438;&amp;#x435;&amp;#x2026;&lt;br&gt;&amp;#x422;&amp;#x435;&amp;#x43F;&amp;#x435;&amp;#x440;&amp;#x44C; &amp;#x437;&amp;#x43D;&amp;#x430;&amp;#x44E;, &amp;#x433;&amp;#x434;&amp;#x435; &amp;#x43F;&amp;#x440;&amp;#x430;&amp;#x432;&amp;#x438;&amp;#x442;&amp;#x44C;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="News" scheme="http://dvesti.github.io/categories/News/"/>
+    
+    
+      <category term="Blog" scheme="http://dvesti.github.io/tags/Blog/"/>
+    
+      <category term="Style" scheme="http://dvesti.github.io/tags/Style/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Сайт на Jekyll</title>
+    <link href="http://dvesti.github.io/2018/02/23/My-jekyll/"/>
+    <id>http://dvesti.github.io/2018/02/23/My-jekyll/</id>
+    <published>2018-02-23T11:15:36.000Z</published>
+    <updated>2018-02-23T12:04:28.247Z</updated>
+    
+    <content type="html"><![CDATA[<p>&#x421;&#x43E;&#x437;&#x434;&#x430;&#x43B; &#x441;&#x430;&#x439;&#x442; &#x43D;&#x430; <strong>Jekyll</strong> &#x441; &#x442;&#x435;&#x43C;&#x43E;&#x439; <strong><a href="https://dvesti.github.io/jekyll-jacman/">Jekyll-Jacman</a></strong> (&#x43A;&#x441;&#x442;&#x430;&#x442;&#x438;, &#x43F;&#x43E;&#x440;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x430; &#x438;&#x43C;&#x435;&#x43D;&#x43D;&#x43E; &#x441; <strong>Hexo</strong> )  </p><p>&#x41F;&#x440;&#x438;&#x448;&#x43B;&#x43E;&#x441;&#x44C; &#x43F;&#x43E;&#x43C;&#x443;&#x447;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x441; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x43E;&#x439; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;&#x433;&#x43E; (<em>Ruby</em> &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x435;&#x435;) &#x43D;&#x430; <em>Windows</em>, &#x43D;&#x43E; &#x43D;&#x438;&#x447;&#x435;&#x433;&#x43E;, - &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x435;&#x442;.<br>&#x428;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x447;&#x438;&#x43A;&#x430; &#x43F;&#x43E; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x438; &#xAB;<em>&#x420;&#x44B;&#x431;&#x44B;</em>&#xBB; &#x43F;&#x43E;&#x441;&#x442;&#x430; &#x43D;&#x435; &#x43D;&#x430;&#x431;&#x43B;&#x44E;&#x434;&#x430;&#x44E;. &#x41F;&#x440;&#x438;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x441;&#x44F; &#x432;&#x441;&#x451; &#x44D;&#x442;&#x43E; &#x434;&#x435;&#x440;&#x436;&#x430;&#x442;&#x44C; &#x432; &#x43F;&#x430;&#x43C;&#x44F;&#x442;&#x438;.<br><a id="more"></a><br>&#x423;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x432;&#x43B;&#x438;&#x432;&#x430;&#x43B; &#x435;&#x449;&#x451; &#x438; &#x432; &#x43A;&#x430;&#x442;&#x435;&#x433;&#x43E;&#x440;&#x438;&#x44E; &#x441;&#x430;&#x439;&#x442;&#x430; &#x43D;&#x430; <strong><em>GitHub</em></strong>, &#x442;.&#x435;. &#x43F;&#x440;&#x438;&#x448;&#x43B;&#x43E;&#x441;&#x44C; &#x437;&#x430;&#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x43E;&#x432;&#x430;&#x442;&#x44C; <code>gh-pages</code> (&#x432;&#x43C;&#x435;&#x441;&#x442;&#x43E; <code>master</code>). &#x410; &#x442;&#x430;&#x43C; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x44B; &#x43F;&#x443;&#x448;&#x430; &#x441; &#x445;&#x438;&#x442;&#x440;&#x43E;&#x441;&#x442;&#x44C;&#x44E;.</p><p>&#x411;&#x443;&#x434;&#x443; &#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x442;&#x44C; &#x43E;&#x431;&#x430; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x430;: <strong>Jekyll</strong> &#x438; <strong>Hexo</strong><br>&#x412;&#x442;&#x43E;&#x440;&#x43E;&#x439; &#x43C;&#x43D;&#x435; &#x43A;&#x430;&#x436;&#x435;&#x442;&#x441;&#x44F; &#x43F;&#x43E;-&#x43F;&#x440;&#x43E;&#x449;&#x435;&#x2026;</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;#x421;&amp;#x43E;&amp;#x437;&amp;#x434;&amp;#x430;&amp;#x43B; &amp;#x441;&amp;#x430;&amp;#x439;&amp;#x442; &amp;#x43D;&amp;#x430; &lt;strong&gt;Jekyll&lt;/strong&gt; &amp;#x441; &amp;#x442;&amp;#x435;&amp;#x43C;&amp;#x43E;&amp;#x439; &lt;strong&gt;&lt;a href=&quot;https://dvesti.github.io/jekyll-jacman/&quot;&gt;Jekyll-Jacman&lt;/a&gt;&lt;/strong&gt; (&amp;#x43A;&amp;#x441;&amp;#x442;&amp;#x430;&amp;#x442;&amp;#x438;, &amp;#x43F;&amp;#x43E;&amp;#x440;&amp;#x442;&amp;#x438;&amp;#x440;&amp;#x43E;&amp;#x432;&amp;#x430;&amp;#x43D;&amp;#x430; &amp;#x438;&amp;#x43C;&amp;#x435;&amp;#x43D;&amp;#x43D;&amp;#x43E; &amp;#x441; &lt;strong&gt;Hexo&lt;/strong&gt; )  &lt;/p&gt;
+&lt;p&gt;&amp;#x41F;&amp;#x440;&amp;#x438;&amp;#x448;&amp;#x43B;&amp;#x43E;&amp;#x441;&amp;#x44C; &amp;#x43F;&amp;#x43E;&amp;#x43C;&amp;#x443;&amp;#x447;&amp;#x438;&amp;#x442;&amp;#x44C;&amp;#x441;&amp;#x44F; &amp;#x441; &amp;#x443;&amp;#x441;&amp;#x442;&amp;#x430;&amp;#x43D;&amp;#x43E;&amp;#x432;&amp;#x43A;&amp;#x43E;&amp;#x439; &amp;#x43D;&amp;#x435;&amp;#x43E;&amp;#x431;&amp;#x445;&amp;#x43E;&amp;#x434;&amp;#x438;&amp;#x43C;&amp;#x43E;&amp;#x433;&amp;#x43E; (&lt;em&gt;Ruby&lt;/em&gt; &amp;#x438; &amp;#x43F;&amp;#x440;&amp;#x43E;&amp;#x447;&amp;#x435;&amp;#x435;) &amp;#x43D;&amp;#x430; &lt;em&gt;Windows&lt;/em&gt;, &amp;#x43D;&amp;#x43E; &amp;#x43D;&amp;#x438;&amp;#x447;&amp;#x435;&amp;#x433;&amp;#x43E;, - &amp;#x440;&amp;#x430;&amp;#x431;&amp;#x43E;&amp;#x442;&amp;#x430;&amp;#x435;&amp;#x442;.&lt;br&gt;&amp;#x428;&amp;#x430;&amp;#x431;&amp;#x43B;&amp;#x43E;&amp;#x43D;&amp;#x447;&amp;#x438;&amp;#x43A;&amp;#x430; &amp;#x43F;&amp;#x43E; &amp;#x441;&amp;#x43E;&amp;#x437;&amp;#x434;&amp;#x430;&amp;#x43D;&amp;#x438;&amp;#x438; &amp;#xAB;&lt;em&gt;&amp;#x420;&amp;#x44B;&amp;#x431;&amp;#x44B;&lt;/em&gt;&amp;#xBB; &amp;#x43F;&amp;#x43E;&amp;#x441;&amp;#x442;&amp;#x430; &amp;#x43D;&amp;#x435; &amp;#x43D;&amp;#x430;&amp;#x431;&amp;#x43B;&amp;#x44E;&amp;#x434;&amp;#x430;&amp;#x44E;. &amp;#x41F;&amp;#x440;&amp;#x438;&amp;#x445;&amp;#x43E;&amp;#x434;&amp;#x438;&amp;#x442;&amp;#x441;&amp;#x44F; &amp;#x432;&amp;#x441;&amp;#x451; &amp;#x44D;&amp;#x442;&amp;#x43E; &amp;#x434;&amp;#x435;&amp;#x440;&amp;#x436;&amp;#x430;&amp;#x442;&amp;#x44C; &amp;#x432; &amp;#x43F;&amp;#x430;&amp;#x43C;&amp;#x44F;&amp;#x442;&amp;#x438;.&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="News" scheme="http://dvesti.github.io/categories/News/"/>
+    
+    
+      <category term="Blog" scheme="http://dvesti.github.io/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://dvesti.github.io/2018/02/15/hello-world/"/>
+    <id>http://dvesti.github.io/2018/02/15/hello-world/</id>
+    <published>2018-02-14T22:26:52.044Z</published>
+    <updated>2018-02-14T22:26:52.044Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><a id="more"></a><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Проверочный</title>
+    <link href="http://dvesti.github.io/2018/02/09/a/"/>
+    <id>http://dvesti.github.io/2018/02/09/a/</id>
+    <published>2018-02-09T11:39:47.000Z</published>
+    <updated>2018-03-03T15:35:53.043Z</updated>
+    
+    <content type="html"><![CDATA[<p>&#x41F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x430; &#x410;</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;#x41F;&amp;#x440;&amp;#x43E;&amp;#x433;&amp;#x440;&amp;#x430;&amp;#x43C;&amp;#x43C;&amp;#x430; &amp;#x410;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="Test" scheme="http://dvesti.github.io/tags/Test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Меняем формат даты</title>
+    <link href="http://dvesti.github.io/2018/02/08/menjaem-format-date/"/>
+    <id>http://dvesti.github.io/2018/02/08/menjaem-format-date/</id>
+    <published>2018-02-08T19:56:22.000Z</published>
+    <updated>2018-02-08T20:13:05.634Z</updated>
+    
+    <content type="html"><![CDATA[<p>&#x417;&#x430;&#x43C;&#x435;&#x43D;&#x438;&#x43B; &#x432; &#x444;&#x430;&#x439;&#x43B;&#x435; <strong>Git\Blog\themes\minos\layout_partial\archive-post.ejs</strong></p><p>&#x42D;&#x442;&#x43E;:</p><pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;archive-article-date&apos;, date_format: &apos;MMM D&apos;}) %&gt;</code></pre><p>&#x41D;&#x430; &#x44D;&#x442;&#x43E;:</p><pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;archive-article-date&apos;, date_format: &apos;DD MMMM&apos;}) %</code></pre><p>&#x414;&#x430;&#x43B;&#x435;&#x435; &#x434;&#x435;&#x43B;&#x430;&#x435;&#x43C; &#x43F;&#x43E; &#x430;&#x43D;&#x430;&#x43B;&#x43E;&#x433;&#x438;&#x438;, &#x437;&#x430;&#x433;&#x43B;&#x44F;&#x434;&#x44B;&#x432;&#x430;&#x44F; &#x432; <strong><a href="http://momentjs.com/docs/#/displaying/format/" target="_blank" rel="noopener">&#x43C;&#x430;&#x43D;&#x443;&#x430;&#x43B; &#x43F;&#x43E; &#x444;&#x43E;&#x440;&#x43C;&#x430;&#x442;&#x435; &#x434;&#x430;&#x442;&#x44B;</a></strong><br><a id="more"></a><br>&#x41D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;, &#x444;&#x43E;&#x440;&#x43C;&#x430;&#x442; &#x430;&#x440;&#x445;&#x438;&#x432;&#x43D;&#x43E;&#x439; &#x434;&#x430;&#x442;&#x44B; &#x441;&#x442;&#x430;&#x442;&#x44C;&#x438; (&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x442;&#x430;&#x43C; &#x436;&#x435;)</p><pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;archive-article-date&apos;, date_format: &apos;DD MMMM YYYY &#x433;&#x43E;&#x434;&#x430;&apos;}) %&gt;</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;#x417;&amp;#x430;&amp;#x43C;&amp;#x435;&amp;#x43D;&amp;#x438;&amp;#x43B; &amp;#x432; &amp;#x444;&amp;#x430;&amp;#x439;&amp;#x43B;&amp;#x435; &lt;strong&gt;Git\Blog\themes\minos\layout_partial\archive-post.ejs&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x42D;&amp;#x442;&amp;#x43E;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;%- partial(&amp;apos;post/date&amp;apos;, {class_name: &amp;apos;archive-article-date&amp;apos;, date_format: &amp;apos;MMM D&amp;apos;}) %&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;#x41D;&amp;#x430; &amp;#x44D;&amp;#x442;&amp;#x43E;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;%- partial(&amp;apos;post/date&amp;apos;, {class_name: &amp;apos;archive-article-date&amp;apos;, date_format: &amp;apos;DD MMMM&amp;apos;}) %
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;#x414;&amp;#x430;&amp;#x43B;&amp;#x435;&amp;#x435; &amp;#x434;&amp;#x435;&amp;#x43B;&amp;#x430;&amp;#x435;&amp;#x43C; &amp;#x43F;&amp;#x43E; &amp;#x430;&amp;#x43D;&amp;#x430;&amp;#x43B;&amp;#x43E;&amp;#x433;&amp;#x438;&amp;#x438;, &amp;#x437;&amp;#x430;&amp;#x433;&amp;#x43B;&amp;#x44F;&amp;#x434;&amp;#x44B;&amp;#x432;&amp;#x430;&amp;#x44F; &amp;#x432; &lt;strong&gt;&lt;a href=&quot;http://momentjs.com/docs/#/displaying/format/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&amp;#x43C;&amp;#x430;&amp;#x43D;&amp;#x443;&amp;#x430;&amp;#x43B; &amp;#x43F;&amp;#x43E; &amp;#x444;&amp;#x43E;&amp;#x440;&amp;#x43C;&amp;#x430;&amp;#x442;&amp;#x435; &amp;#x434;&amp;#x430;&amp;#x442;&amp;#x44B;&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://dvesti.github.io/categories/Hexo/"/>
+    
+    
+      <category term="Themes" scheme="http://dvesti.github.io/tags/Themes/"/>
+    
+      <category term="Fix" scheme="http://dvesti.github.io/tags/Fix/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Minos</title>
+    <link href="http://dvesti.github.io/2018/02/08/Minos/"/>
+    <id>http://dvesti.github.io/2018/02/08/Minos/</id>
+    <published>2018-02-08T18:14:38.000Z</published>
+    <updated>2018-02-08T18:47:25.817Z</updated>
+    
+    <content type="html"><![CDATA[<p>&#x41F;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x438;&#x43B; &#x442;&#x435;&#x43C;&#x443; <em>&#x41C;&#x438;&#x43D;&#x43E;&#x441;</em> - <strong>Minos</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;#x41F;&amp;#x43E;&amp;#x441;&amp;#x442;&amp;#x430;&amp;#x432;&amp;#x438;&amp;#x43B; &amp;#x442;&amp;#x435;&amp;#x43C;&amp;#x443; &lt;em&gt;&amp;#x41C;&amp;#x438;&amp;#x43D;&amp;#x43E;&amp;#x441;&lt;/em&gt; - &lt;str
+      
+    
+    </summary>
+    
+      <category term="News" scheme="http://dvesti.github.io/categories/News/"/>
+    
+    
+      <category term="Minos" scheme="http://dvesti.github.io/tags/Minos/"/>
+    
+      <category term="Hexo" scheme="http://dvesti.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>icarus</title>
+    <link href="http://dvesti.github.io/2018/02/08/icarus/"/>
+    <id>http://dvesti.github.io/2018/02/08/icarus/</id>
+    <published>2018-02-08T15:57:54.000Z</published>
+    <updated>2018-02-08T15:58:46.923Z</updated>
+    
+    <content type="html"><![CDATA[<p>&#x42D;&#x442;&#x43E; &#x442;&#x435;&#x441;&#x442;&#x43E;&#x432;&#x430;&#x44F; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x44C; &#x432; &#x442;&#x435;&#x43C;&#x435; <strong>&#x418;&#x43A;&#x430;&#x440;&#x443;&#x441;</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;#x42D;&amp;#x442;&amp;#x43E; &amp;#x442;&amp;#x435;&amp;#x441;&amp;#x442;&amp;#x43E;&amp;#x432;&amp;#x430;&amp;#x44F; &amp;#x437;&amp;#x430;&amp;#x43F;&amp;#x438;&amp;#x441;&amp;#x44C; &amp;#x432; &amp;#x442;
+      
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="http://dvesti.github.io/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Новая тема hexo-theme-octo</title>
+    <link href="http://dvesti.github.io/2018/02/07/hexo-theme-octo/"/>
+    <id>http://dvesti.github.io/2018/02/07/hexo-theme-octo/</id>
+    <published>2018-02-06T22:25:28.000Z</published>
+    <updated>2018-02-26T17:08:09.133Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Heading"><a href="#Heading" class="headerlink" title="Heading"></a>Heading</h1><h2 id="Subheading"><a href="#Subheading" class="headerlink" title="Subheading"></a>Subheading</h2><h3 id="Subsubheading"><a href="#Subsubheading" class="headerlink" title="Subsubheading"></a>Subsubheading</h3><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>!</p><a id="more"></a>## Pullquotes<br><br>My super pullquote. Pullquotes are right-aligned by default:<br><br><blockquote class="pullquote left"><p>Left-hand pullquote</p></blockquote><p>This right pullquote turns all the heads.</p><blockquote class="pullquote right"><p>Right-hand pullquote</p></blockquote><h2 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h2><img src="/path/to/image" class="class_names" title="the_width the_height [the_title [alt text]]"><h2 id="JSFiddle-embeds"><a href="#JSFiddle-embeds" class="headerlink" title="JSFiddle embeds"></a>JSFiddle embeds</h2><iframe scrolling="no" width="100%" height="300" src="//jsfiddle.net/my_fiddle_id/embedded/html,css,result/dark" frameborder="0" allowfullscreen></iframe><p>The syntax is: jsfiddle ID, tab list, and theme (&#x2018;dark&#x2019; or &#x2018;light&#x2019;).</p><h2 id="Iframes"><a href="#Iframes" class="headerlink" title="Iframes"></a>Iframes</h2><iframe src="http://www.dmitriev.ee/chessviewer/PGN/2005/kohtlajarvemv2005_1.htm" width="100%" height="375px" frameborder="0" allowfullscreen></iframe><h2 id="Codeblocks"><a href="#Codeblocks" class="headerlink" title="Codeblocks"></a>Codeblocks</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">beep.beep(thisIsMyCode).beep();</span><br></pre></td></tr></table></figure><h2 id="Github-Gists"><a href="#Github-Gists" class="headerlink" title="Github Gists"></a>Github Gists</h2><script src="//gist.github.com/gist_id.js?file=filename"></script><h2 id="YouTube-embeds"><a href="#YouTube-embeds" class="headerlink" title="YouTube embeds"></a>YouTube embeds</h2><div class="video-container"><iframe src="//www.youtube.com/embed/video_id" frameborder="0" allowfullscreen></iframe></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Heading&quot;&gt;&lt;a href=&quot;#Heading&quot; class=&quot;headerlink&quot; title=&quot;Heading&quot;&gt;&lt;/a&gt;Heading&lt;/h1&gt;&lt;h2 id=&quot;Subheading&quot;&gt;&lt;a href=&quot;#Subheading&quot; class=&quot;headerlink&quot; title=&quot;Subheading&quot;&gt;&lt;/a&gt;Subheading&lt;/h2&gt;&lt;h3 id=&quot;Subsubheading&quot;&gt;&lt;a href=&quot;#Subsubheading&quot; class=&quot;headerlink&quot; title=&quot;Subsubheading&quot;&gt;&lt;/a&gt;Subsubheading&lt;/h3&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;!&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="News" scheme="http://dvesti.github.io/categories/News/"/>
+    
+    
+      <category term="Blog" scheme="http://dvesti.github.io/tags/Blog/"/>
+    
+      <category term="Test" scheme="http://dvesti.github.io/tags/Test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Моё первое Сообщение! - my-first-post</title>
+    <link href="http://dvesti.github.io/2018/02/04/my-first-post/"/>
+    <id>http://dvesti.github.io/2018/02/04/my-first-post/</id>
+    <published>2018-02-04T14:15:28.000Z</published>
+    <updated>2018-02-06T20:33:10.005Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>&#x42D;&#x442;&#x43E;</strong> - &#x43F;&#x435;&#x440;&#x432;&#x43E;&#x435; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435; <a href="https://dvesti.github.io/">&#x43D;&#x430; &#x432;&#x438;&#x440;&#x442;&#x443;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x43C; &#x411;&#x43B;&#x43E;&#x433;&#x435;</a> H&#x415;&#x425;&#x41E;<br>&#x41F;&#x435;&#x440;&#x435;&#x434; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x435;&#x43C; &#x43D;&#x43E;&#x432;&#x43E;&#x439; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x438; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x44C; &#x41A;&#x43E;&#x43D;&#x441;&#x43E;&#x43B;&#x44C;-&#x421;&#x435;&#x440;&#x432;&#x435;&#x440;.<br><a id="more"></a> &#x413;&#x434;&#x435;-&#x442;&#x43E; &#x443; &#x43C;&#x435;&#x43D;&#x44F; &#x432;&#x430;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x430; &#x434;&#x43B;&#x44F; &#x440;&#x435;&#x434;&#x430;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x41C;&#x430;&#x43A;&#x434;&#x430;&#x443;&#x43D;&#x430; - &#x441;&#x435;&#x439;&#x447;&#x430;&#x441; &#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44E; &#x432;<br><del>Texts</del> <strong>MarkDownPad</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&amp;#x42D;&amp;#x442;&amp;#x43E;&lt;/strong&gt; - &amp;#x43F;&amp;#x435;&amp;#x440;&amp;#x432;&amp;#x43E;&amp;#x435; &amp;#x441;&amp;#x43E;&amp;#x43E;&amp;#x431;&amp;#x449;&amp;#x435;&amp;#x43D;&amp;#x438;&amp;#x435; &lt;a href=&quot;https://dvesti.github.io/&quot;&gt;&amp;#x43D;&amp;#x430; &amp;#x432;&amp;#x438;&amp;#x440;&amp;#x442;&amp;#x443;&amp;#x430;&amp;#x43B;&amp;#x44C;&amp;#x43D;&amp;#x43E;&amp;#x43C; &amp;#x411;&amp;#x43B;&amp;#x43E;&amp;#x433;&amp;#x435;&lt;/a&gt; H&amp;#x415;&amp;#x425;&amp;#x41E;&lt;br&gt;&amp;#x41F;&amp;#x435;&amp;#x440;&amp;#x435;&amp;#x434; &amp;#x441;&amp;#x43E;&amp;#x437;&amp;#x434;&amp;#x430;&amp;#x43D;&amp;#x438;&amp;#x435;&amp;#x43C; &amp;#x43D;&amp;#x43E;&amp;#x432;&amp;#x43E;&amp;#x439; &amp;#x437;&amp;#x430;&amp;#x43F;&amp;#x438;&amp;#x441;&amp;#x438; &amp;#x43D;&amp;#x435;&amp;#x43E;&amp;#x431;&amp;#x445;&amp;#x43E;&amp;#x434;&amp;#x438;&amp;#x43C;&amp;#x43E; &amp;#x437;&amp;#x430;&amp;#x43A;&amp;#x440;&amp;#x44B;&amp;#x442;&amp;#x44C; &amp;#x41A;&amp;#x43E;&amp;#x43D;&amp;#x441;&amp;#x43E;&amp;#x43B;&amp;#x44C;-&amp;#x421;&amp;#x435;&amp;#x440;&amp;#x432;&amp;#x435;&amp;#x440;.&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="http://dvesti.github.io/tags/Blog/"/>
+    
+  </entry>
+  
+</feed>
