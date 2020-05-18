@@ -39,7 +39,7 @@ The syntax is: jsfiddle ID, tab list, and theme ('dark' or 'light').
 
 ## Iframes
 
-{% iframe https://dvesti.github.io/chessviewer/PGN/2005/kohtlajarvemv2005_1.htm 100% 375px %}
+{% iframe http://www.dmitriev.ee/chessviewer/PGN/2005/kohtlajarvemv2005_1.htm 100% 375px %}
 
 ## Codeblocks
 {% codeblock %}
