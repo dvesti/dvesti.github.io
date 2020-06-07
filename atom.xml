@@ -209,9 +209,9 @@
       <category term="News" scheme="http://dvesti.github.io/categories/News/"/>
     
     
-      <category term="Blog" scheme="http://dvesti.github.io/tags/Blog/"/>
-    
       <category term="Test" scheme="http://dvesti.github.io/tags/Test/"/>
+    
+      <category term="Blog" scheme="http://dvesti.github.io/tags/Blog/"/>
     
   </entry>
   
